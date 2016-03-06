@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Animated Vector Drawable Play to Reset Button</string>
     <string name="action_settings">Settings</string>
-    <string name="fab_anim_time">400</string>
+    <integer name="fab_anim_time">400</integer>
 </resources>
