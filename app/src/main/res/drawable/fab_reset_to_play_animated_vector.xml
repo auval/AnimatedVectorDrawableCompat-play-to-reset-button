@@ -6,10 +6,12 @@
         android:animation="@animator/fab_tail_shrink"
         android:name="arrow tail"/>
     <target
-        android:animation="@animator/fab_arrowhead_to_play_startoffset"
+        android:animation="@animator/fab_arrowhead_to_play_rotation"
         android:name="arrow head group"/>
     <target
-        android:animation="@animator/fab_arrowhead_to_play"
+        android:animation="@animator/fab_arrowhead_to_play_scale_x"
         android:name="arrow head group"/>
-
+    <target
+        android:animation="@animator/fab_arrowhead_to_play_scale_y"
+        android:name="arrow head group"/>
 </animated-vector>
