@@ -1,9 +1,11 @@
 package com.mcgearybros.animatedvectordrawableplaytoresetbutton;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -30,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
                 changeButtonIcon();
             }
         });
+
+
+        AppCompatImageView bv= (AppCompatImageView) findViewById(R.id.butterfly_view);
+        AnimatedVectorDrawableCompat drawable = (AnimatedVectorDrawableCompat) bv.getDrawable();
+
+        drawable.start();
     }
 
     private void changeButtonIcon(){
